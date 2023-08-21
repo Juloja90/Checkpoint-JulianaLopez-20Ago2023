@@ -1,0 +1,40 @@
+   1  cd "C:\Users\Usuario\Documents\Cursos"
+   2  cd IntroALaProgramacion/
+   3  mkdir Checkpoint-JulianaLopez-20Ago2023
+   4  cd Checkpoint-JulianaLopez-20Ago2023/
+   5  git init
+   6  git status
+   7  git add .
+   8  git commit -m "commit 01 de JulianaLópez"
+   9  git remote add origin https://github.com/Juloja90/Checkpoint-JulianaLopez-20Ago2023.git
+   10  git branch -m main
+   11  git push -u origin main
+   12  git pull
+   13  git push -f origin main
+   14  touch main.js index.html
+   15  git add .
+   16  git commit -m "commit 02 JulianaLopez"
+   17  git push origin main
+   18  git branch feature
+   19  git checout -b feature
+   20  git checkout -b feature
+   21  git checkout feature
+   22  mkdir "i. Hardware" "ii. Software" "iii. SeguridadInformatica"
+   23  cd i.\ Hardware/
+   24  touch resumen.txt
+   25  cd ..
+   26  cd ii.\ Software/
+   27  touch resumen.txt
+   28  cd ..
+   29  cd iii.
+   30  cd iii.\ SeguridadInformatica/
+   31  touch resumen.txt
+   32  cd ..
+   33  git add .
+   34  git commit -m "commit 03 JulianaLopez"
+   35  git push -u origin feature
+   36  git checkout main
+   37  mv main.js resumenHardware.txt
+   38  mv index.html resumenSoftware.txt
+   39  touch comandos.txt
+   40  history
